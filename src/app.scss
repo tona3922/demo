@@ -1,0 +1,115 @@
+body {
+  //   text-align: center;
+  background-color: rgb(219, 219, 219);
+  .form {
+    background-color: white;
+    border-radius: 15px;
+    // align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    h2 {
+      text-align: center;
+      //   align-items: center;
+    }
+    .mini {
+      margin: 20px auto;
+      //   display: flex;
+      //   justify-content: center;
+      // align-items: center;
+      .info {
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        color: rgb(82, 82, 249);
+        font-weight: bold;
+        //   align-items: center;
+      }
+      input {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border: 0.8px solid;
+        border-color: rgb(185, 185, 185);
+        height: 30px;
+        width: 340px;
+        font-size: 18px;
+      }
+    }
+    .bottom {
+      padding-top: 20px;
+      display: flex;
+      padding-left: 40px;
+      padding-right: 40px;
+      justify-content: space-between;
+      .left {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        // flex-direction: row;
+        // justify-content: center;
+      }
+      .right {
+        display: flex;
+        button {
+          color: white;
+          border: none;
+          height: 30px;
+          width: 80px;
+          border-radius: 5px;
+          background-color: rgb(82, 82, 249);
+        }
+      }
+    }
+    .mini2 {
+      margin: 0 auto;
+      .var_name {
+        padding-bottom: 8px;
+        padding-top: 8px;
+      }
+      input {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        border: 0.8px solid;
+        border-color: rgb(185, 185, 185);
+        height: 30px;
+        width: 340px;
+        font-size: 18px;
+      }
+    }
+    .btm {
+      padding-top: 20px;
+      display: flex;
+      padding-left: 40px;
+      padding-right: 40px;
+      justify-content: flex-end;
+      gap: 20px;
+      .spc-btn {
+        background-color: rgb(82, 82, 249);
+        color: white;
+      }
+      .rht-btn {
+        color: rgb(82, 82, 249);
+        font-weight: bold;
+      }
+      button {
+        border-radius: 5px;
+        gap: 5px;
+        width: 70px;
+        height: 30px;
+        border: none;
+      }
+    }
+  }
+}
